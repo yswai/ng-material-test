@@ -8,10 +8,29 @@ System.config({
   },
 
   map: {
+    "angular": "github:angular/bower-angular@1.4.8",
+    "angular-animate": "github:angular/bower-angular-animate@1.4.8",
+    "angular-aria": "github:angular/bower-angular-aria@1.4.8",
+    "angular-material": "github:angular/bower-material@master",
+    "css": "github:systemjs/plugin-css@0.1.20",
     "jquery": "github:components/jquery@2.1.4",
+    "json": "github:systemjs/plugin-json@0.1.0",
     "lodash": "npm:lodash@3.10.1",
+    "text": "github:systemjs/plugin-text@0.0.2",
     "traceur": "github:jmcriffey/bower-traceur@0.0.92",
     "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.92",
+    "github:angular/bower-angular-animate@1.4.8": {
+      "angular": "github:angular/bower-angular@1.4.8"
+    },
+    "github:angular/bower-angular-aria@1.4.8": {
+      "angular": "github:angular/bower-angular@1.4.8"
+    },
+    "github:angular/bower-material@master": {
+      "angular": "github:angular/bower-angular@1.4.8",
+      "angular-animate": "github:angular/bower-angular-animate@1.4.8",
+      "angular-aria": "github:angular/bower-angular-aria@1.4.8",
+      "css": "github:systemjs/plugin-css@0.1.20"
+    },
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },

@@ -13,8 +13,15 @@
       "baseURL": "client"
     },
     "dependencies": {
+      "angular": "github:angular/bower-angular@^1.4.7",
+      "angular-animate": "github:angular/bower-angular-animate@^1.4.7",
+      "angular-aria": "github:angular/bower-angular-aria@^1.4.7",
+      "angular-material": "github:angular/bower-material@master",
+      "css": "github:systemjs/plugin-css@^0.1.6",
       "jquery": "github:components/jquery@^2.1.4",
-      "lodash": "npm:lodash@^3.10.1"
+      "json": "github:systemjs/plugin-json@^0.1.0",
+      "lodash": "npm:lodash@^3.10.1",
+      "text": "github:systemjs/plugin-text@^0.0.2"
     },
     "devDependencies": {
       "traceur": "github:jmcriffey/bower-traceur@0.0.92",
