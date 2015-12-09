@@ -2,11 +2,11 @@
   "name": "es6-traceur",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "install": "npm install -g serve",
-    "start": "cd client && serve --port=80"
+    "start": "node server.js"
   },
   "engines": {
     "node": ">= 4.0.0"
@@ -32,5 +32,8 @@
       "traceur": "github:jmcriffey/bower-traceur@0.0.92",
       "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.92"
     }
+  },
+  "dependencies": {
+    "express": "^4.13.3"
   }
 }
