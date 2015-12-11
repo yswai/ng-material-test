@@ -5,6 +5,12 @@ let main = angular.module('main', [ngMaterial]);
 main.run(function () {
     console.log('Running app module...');
 }).controller('AppCtrl', function ($scope, $timeout, $mdSidenav, $log) {
+
+    $scope.title1 = 'Button';
+    $scope.title4 = 'Warn';
+    $scope.isDisabled = true;
+    $scope.googleUrl = 'http://google.com';
+
     $scope.toggleLeft = buildDelayedToggler('left');
     $scope.toggleRight = buildToggler('right');
     $scope.isOpenRight = function () {
