@@ -1,7 +1,7 @@
 import 'angular-material/angular-material.css!'
 
-import _ from '../jspm_packages/npm/lodash@3.10.1.js'
-import $ from '../jspm_packages/github/components/jquery@2.1.4.js'
+import _ from 'lodash'
+import $ from 'jquery'
 import myFunc from './my-func.js'
 import angular from 'angular'
 import ngMaterial from 'angular-material'
